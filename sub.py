@@ -1,4 +1,3 @@
-import sys,string
 s = input()
 n = len(s)
 for j in range(n-2,-1,-1) :
@@ -7,4 +6,4 @@ for j in range(n-2,-1,-1) :
         s2 = s[li:ri + 1]
         if s2 > s :
             print(s2)
-            sys.exit()
+      
