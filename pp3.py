@@ -5,7 +5,7 @@ if n2 > n1 :
     j = 0
     while j<n1 and s1[j] == s2[j] :
         j += 1
-    print(n2-i)
+    print(n2-j)
 elif n2 == n1 :
     j = 0
     while j<n2 and s1[j] == s2[j] :
