@@ -7,9 +7,9 @@ for i in range(0,q):
     u,v=input().split()
     u=int(u)
     v=int(v)
-    k=0
+    t=0
     for j in range(u-1,v):
-        k=k^l[j]
-    result.append(k)
+        t=t^l[j]
+    result.append(t)
 print(*result,sep="\n")
         
