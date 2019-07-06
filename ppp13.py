@@ -2,7 +2,7 @@ n,q=input().split()
 n=int(n)
 q=int(q)
 result=[]
-l=list(map(int,input().split()))
+p=list(map(int,input().split()))
 for i in range(0,q):
     u,v=input().split()
     u=int(u)
